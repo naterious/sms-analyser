@@ -16,6 +16,7 @@
     "es6-error": "^4.1.1",
     "express": "^4.17.1",
     "ramda": "^0.27.0",
+    "typescript": "3.8.2",
     "winston": "^3.3.3"
   },
   "devDependencies": {
@@ -30,7 +31,6 @@
     "chai": "^4.2.0",
     "mocha": "6.2.3",
     "sinon": "^9.0.2",
-    "ts-node": "^8.10.1",
-    "typescript": "3.8.2"
+    "ts-node": "^8.10.1"
   }
 }
