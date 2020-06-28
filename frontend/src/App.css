@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#mainContainer {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.title {
+  justify-content: center;
+  padding-top: 5vh;
+  color: #AD875E;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.content {
+  padding-top: 2vh;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: lighter;
+  width: 100%;
+}
+
+.formWrapper {
+  margin: auto;
+  width: 45vw;
+}
+
+.formContent {
+  padding-bottom: 5vh;
+}
+
+.inputFieldsPhone {
+  color: white;
+  height: 6vh;
+  width: 60%;
+  border-radius: 10px;
+  background: #ffffff00;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 1vw;
+  box-shadow: inset 1px -1px 10px #4d4d4d, 
+              inset -1px 1px 10px #4d4d4d;
+}
+
+.inputFieldsMessage {
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 15vh;
+  border-radius: 10px;
+  background: #ffffff00;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 1vw;
+  box-shadow: inset 1px -1px 10px #4d4d4d, 
+              inset -1px 1px 10px #4d4d4d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.tableData {
+  padding: 5vh;
+  margin: auto;
+  min-width: 45vw;
+  max-width: 65vw;
+  margin-top: 5vh;
+  border: none;
+  border-radius: 15px;
+  background: #22222227;
+  box-shadow:  -5px -5px 5px #000000, 
+               -2px 2px 5px #262626;
+}
+
+tbody {
+  font-size: x-large;
+}
+
+th {
+  color: #AD875E;
+  padding: 1.5vh;
+  text-align: left;
+}
+
+td {
+  padding-left: 20vw;
+  text-align: left;
+}
+
+.messageContent {
+  margin-left: -19vw;
+}
+
+.tableContainer {
+  margin-top: -5vh;
+  padding-bottom: 5vh;
+}
