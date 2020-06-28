@@ -12,6 +12,7 @@ To run this application you must have docker desktop installed and running in or
 ## Usage
 1. Clone this repository
 2. To build and run the application run `docker-compose up`
+3. Go to: http://localhost:3000/
 
 ## Tests
 To run backend tests run:
