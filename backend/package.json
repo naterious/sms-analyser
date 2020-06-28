@@ -6,13 +6,14 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config lib/main.js",
-    "test": "nyc mocha 'test/**/*.test.ts'",
+    "test": "mocha 'test/**/*.test.ts'",
     "build": "tsc"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "es6-error": "^4.1.1",
     "express": "^4.17.1",
     "ramda": "^0.27.0",
     "winston": "^3.3.3"
@@ -27,28 +28,9 @@
     "@types/ramda": "^0.27.6",
     "@types/sinon": "^9.0.4",
     "chai": "^4.2.0",
-    "istanbul": "^0.4.5",
     "mocha": "6.2.3",
-    "nyc": "^15.0.1",
     "sinon": "^9.0.2",
     "ts-node": "^8.10.1",
     "typescript": "3.8.2"
-  },
-  "nyc": {
-    "extension": [
-      ".ts",
-      ".tsx"
-    ],
-    "exclude": [
-      "**/*.d.ts",
-      "lib",
-      "coverage",
-      "database"
-    ],
-    "reporter": [
-      "html",
-      "text-summary"
-    ],
-    "all": true
   }
 }
