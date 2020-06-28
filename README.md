@@ -10,7 +10,8 @@ A web application to analyse an SMS message.
 To run this application you must have docker desktop installed and running in order to use docker-compose
 
 ## Usage
-To build and run the application run `docker-compose up`
+1. Clone this repository
+2. To build and run the application run `docker-compose up`
 
 ## Tests
 To run backend tests run:
@@ -28,3 +29,4 @@ The UI is designed to be user friendly and attractive, keeping the main focus of
 - add validation to backend and more strictly on front end to cover all cases and ensure a valid phone number is supplied, not just any number etc
 - add tests to front end to ensure components are rendering properly and output is as expected
 - add proxy between front and back end, I had a small issue using proxy between the two, and had to use a workaround to save some time, but I would use nginx to add a proxy in the future
+- optimise for production, remove as many dependencies as possible, tree shake the front end, and build for front end, add docker-compose for production etc
