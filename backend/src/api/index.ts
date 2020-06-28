@@ -1,5 +1,5 @@
 import composeServer from './server';
-import composeAnalyseSmsMethod from "./analyseSmsMethod";
+import composeAnalyseSmsMethod from './analyseSmsMethod';
 import { ILogger } from '../core/contracts';
 import { AnalyseSmsService } from '../application/analyseSms';
 

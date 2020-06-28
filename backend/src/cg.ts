@@ -1,6 +1,6 @@
 import composeApi from './api';
 import composeApplication from './application';
-import composeInfrastructure from "./infrastructure";
+import composeInfrastructure from './infrastructure';
 
 export default () => {
   const infrastructure = composeInfrastructure();

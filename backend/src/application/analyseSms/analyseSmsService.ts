@@ -2,7 +2,7 @@ import {readFileSync} from 'fs';
 import * as r from 'ramda';
 
 import { IAnalysedSms, ISampleData } from './interfaces';
-import {findLongestMatchingPrefix} from "../../domain";
+import {findLongestMatchingPrefix} from '../../domain';
 import { ProcessingError } from '../../core/errors/errorsClass';
 
 export type AnalyseSmsService = (

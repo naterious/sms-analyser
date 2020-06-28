@@ -1,1 +1,1 @@
-export * from "./findLongestMatchingPrefix";
+export * from './findLongestMatchingPrefix';

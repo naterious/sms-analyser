@@ -1,1 +1,1 @@
-export * from "./analyseSmsService";
+export * from './analyseSmsService';
