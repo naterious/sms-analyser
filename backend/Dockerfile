@@ -1,14 +1,10 @@
 FROM node:12
-# Create app directory
 WORKDIR /usr/src/app
-# Install app dependencies
-COPY package*.json ./
 
+COPY *.json ./
 RUN npm install --silent
-RUN npm run-script build
-# Copy app source code
 COPY . .
+RUN npx tsc -p ./tsconfig.json
 
-#Expose port and start application
 EXPOSE 8080
 CMD [ "npm", "start" ]
