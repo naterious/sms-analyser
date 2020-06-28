@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install --silent
-RUN npm build
+RUN npm run-script build
 # Copy app source code
 COPY . .
 
