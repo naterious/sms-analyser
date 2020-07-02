@@ -26,8 +26,3 @@ The architecture of the node backend is based around onion architecture design p
 ### Frontend
 The UI is designed to be user friendly and attractive, keeping the main focus of the application nice and large and easy to use. For the styling I used a combination of material UI react library, and some of my own css.
 
-### If I had more time I would...
-- add validation to backend and more strictly on front end to cover all cases and ensure a valid phone number is supplied, not just any number etc
-- add tests to front end to ensure components are rendering properly and output is as expected
-- add proxy between front and back end, I had a small issue using proxy between the two, and had to use a workaround to save some time, but I would use nginx to add a proxy in the future
-- optimise for production, remove as many dependencies as possible, tree shake the front end, and build for front end, add docker-compose for production etc
